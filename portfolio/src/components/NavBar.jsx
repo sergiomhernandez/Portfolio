@@ -27,9 +27,10 @@ const NavBar = () => {
       link: "contact",
     },
   ]
+  
 
   return (
-    <div className="flex justify-between items-center w-full h-20 z-10 text-white fixed px-4">
+    <div name="navbar" className="flex justify-between items-center w-full h-20 z-10 text-white fixed px-4">
       <div>
         <h1 className='text-xl tracking-[0.20em] ml-2 uppercase font-bold text- cursor-pointer'>Sergio</h1>
       </div>
@@ -43,7 +44,7 @@ const NavBar = () => {
         ))}
       </ul>
 
-      <div onClick={() => setNav(!nav)} className='cursor-pointer pr-4 z-10 md:hidden'>
+      <div onClick={() => setNav(!nav)} className='cursor-pointer pr-4 z-10 md:hidden '>
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
 
@@ -51,7 +52,7 @@ const NavBar = () => {
         <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800'>
         {links.map(({id, link}) => (
              <li key={id} 
-             className="px-4 cursor-pointer capitalize py-6 text-4xl "
+             className="px-4 cursor-pointer capitalize py-3 text-2xl"
              >
               {link}
             </li>
