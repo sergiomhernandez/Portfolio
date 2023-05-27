@@ -5,7 +5,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 
 const About = () => {
   return (
-    <section name="about" className='pt-[62px]'>
+    <section name="about" className='pt-[62px] pb-[72px]'>
         <div className='flex flex-col items-center pb-12'>
             <div>
                 <span >
@@ -22,7 +22,7 @@ const About = () => {
                     <span className='block  font-semibold text-[#212529] md:text-2xl'>Sergio Hernandez</span>
                     Front End Developer
                 </h3>
-                <p className='max-w-3xl text-center mt-[25px] mb-9 mx-auto'>I am a passionate front end developer based in Brisbane, Australia who enjoys building performing, aestestic user interfaces with a JavaScript tech stack. I have experience building personal technical projects, freelancing and working at a high-level CRO agency developing quality digital solutions.
+                <p className='max-w-3xl text-center mt-[25px] mb-9 mx-auto'>I am a passionate front end developer based in Santo Domingo, Dominican Republic who enjoys building performing, aestestic user interfaces with a JavaScript tech stack. I have experience building personal technical projects, freelancing and working at a high-level CRO agency developing quality digital solutions.
                 <br/>
                 <br/>
                 Currently, I’m employed at Conversion Kings, developing high quality JavaScript experiments for large national and international brands to help improve conversion rates.</p>
