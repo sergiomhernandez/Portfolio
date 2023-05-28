@@ -1,0 +1,15 @@
+.heading__about {
+
+}
+
+@media screen and (max-width: 600px) {
+    .heading__about {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .mobile-heading {
+        display: none;
+    }
+}

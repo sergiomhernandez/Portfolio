@@ -1,0 +1,48 @@
+.section__gradiente-bg {
+    background: url(../assets/contact-bg.jpg);
+}
+
+.section {
+    width: 100vw;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.contact__form {
+    width: 90%;
+}
+
+.contact-form__label {
+    color: white;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-form__input {
+    width: 100%;
+    height: 47px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    padding-left: 24px;
+    color: white;
+    font-size: 14px;
+    outline: none !important;
+    border-bottom: 2px solid transparent;
+}
+
+.contact-form__textarea {
+    width: 100%;
+    height: 120px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    padding-left: 24px;
+    color: white;
+    font-size: 14px;
+    outline: none !important;
+    border-bottom: 2px solid transparent;
+    padding-top: 16px;
+    resize: none;
+}

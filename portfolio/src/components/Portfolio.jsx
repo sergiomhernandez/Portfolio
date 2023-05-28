@@ -43,8 +43,8 @@ const Portfolio = () => {
                 <h2 className='text-[28px] mb-6'>My Work</h2>
                 <p className='text-[14px] max-w-md w-[90%] text-center leading-6'>View some side and freelance projects I’ve completed that highlight my technical expertise</p>
             </div>
-            <div className='grid md:grid-cols-3 gap-10 w-11/12 max-w-6xl mx-auto mt-0 mb-[50px] px-4 md:px-0'>
-              <div className='w-full bg-white h-[200px] relative shadow-[0px_0px_50px_rgba(0,0,0,0.125)]'>
+            <div className='grid grid-cols-1 md:grid-cols-3 md:gap-10 md:w-11/12 md:max-w-6xl mx-auto mt-0 mb-[50px] px-5 md:px-0'>
+              <div className='md:w-full bg-white md:h-[200px] relative shadow-[0px_0px_50px_rgba(0,0,0,0.125)]'>
                 <span className='flex items-center justify-center pt-16'>
                   <BiCodeAlt size={64} />
                 </span>
@@ -54,7 +54,7 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            <a className='border-2 py-[14px] px-[28px] rounded-[99px] uppercase tracking-[0.125em] border-cyan-200 bg-transparent text-cyan-200 hover:bg-cyan-200 hover:text-white duration-300 ease-in-out text-[14px] flex items-center justify-center mx-auto my-0 w-fit' href="https://github.com/sergiomhernandez" target='_blank'>View Github
+            <a className='border-2 py-[16px] px-[32px] rounded-[99px] uppercase tracking-[0.125em] border-cyan-200 bg-transparent text-cyan-200 hover:bg-cyan-200 hover:text-white duration-300 ease-in-out text-[14px] flex items-center justify-center mx-auto my-0 w-fit' href="https://github.com/sergiomhernandez" target='_blank'>View Github
             <AiFillGithub className='float-right ml-2'  />
             </a>
         </section>

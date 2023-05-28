@@ -14,3 +14,18 @@
     }
 }
 
+body {
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+    background-color: #242a35;
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(165 243 252);
+  }
+  body.no-scroll {
+    overflow: hidden;
+  }

@@ -1,0 +1,5 @@
+.navbar__scrolled {
+    background-color: white;
+    height: 60px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+}
