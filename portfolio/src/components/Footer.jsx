@@ -1,26 +1,7 @@
 import React from 'react'
 import { BsArrowUp } from "react-icons/bs";
 import { Link } from 'react-scroll';
-import react, { useState } from 'react'
 
-// const [showTopBtn, setShowTopBtn] = useState(false);
-
-// useEffect(() => {
-//   window.addEventListener('scroll', () => {
-//       if (window.scrollY > 400) {
-//           setShowTopBtn(true);
-//       } else {
-//           setShowTopBtn(false);
-//       }
-//   });
-// }, []);
-
-// const goToTop = () => {
-//   window.scrollTo({
-//       top: 0,
-//       behavior: 'smooth',
-//   });
-// };
 
 const Footer = () => {
   return (

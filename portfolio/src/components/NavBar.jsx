@@ -24,24 +24,25 @@ const NavBar = () => {
       link: "contact",
     },
   ]
-  
 
   return (
     <div name="navbar">
-      <nav className="flex justify-center items-center w-full h-20 z-10 text-white fixed md:px-4 top-0 left-0">
-        <div className='flex justify-between md:max-w-6xl w-5/6'>
-            <a href='' className='text-xl tracking-[0.20em] ml-2 uppercase font-bold text- cursor-pointer'>Sergio</a>
-          <ul className="hidden md:flex">
-            {links.map(({id, link}) => (
-              <li key={id} 
-              className="px-4 cursor-pointer capitalize font-medium text-white hover:scale-105 hover:text-cyan-200 duration-200"
-              >
-                <a href="#home"><Link to={link} smooth duration={500}>
-                  {link}</Link></a>
-              </li>
-            ))}
-          </ul>
-        </div>
+      <nav className='navbar'>
+        <div className="flex justify-center bg-transparent items-center w-full h-20 z-10 text-white fixed md:px-4 top-0 left-0">
+          <div className='flex justify-between md:max-w-6xl w-5/6'>
+              <a href='' className='text-xl tracking-[0.20em] ml-2 uppercase font-bold text- cursor-pointer'>Sergio</a>
+            <ul className="hidden md:flex">
+              {links.map(({id, link}) => (
+                <li key={id} 
+                className="px-4 cursor-pointer capitalize font-medium text-white hover:scale-105 hover:text-cyan-200 duration-200"
+                >
+                  <a href="#home"><Link to={link} smooth duration={500}>
+                    {link}</Link></a>
+                </li>
+              ))}
+            </ul>
+          </div>
+         </div>
       </nav>
 
       <div onClick={() => setNav(!nav)} className='cursor-pointer pr-4 z-50 md:hidden fixed right-4 top-6 text-white'>
