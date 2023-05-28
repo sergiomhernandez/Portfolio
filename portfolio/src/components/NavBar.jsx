@@ -28,7 +28,7 @@ const NavBar = () => {
   return (
     <div name="navbar">
       <nav className='navbar'>
-        <div className="flex justify-center bg-transparent items-center w-full h-20 z-10 text-white fixed md:px-4 top-0 left-0 bg-black">
+        <div className="flex justify-center items-center w-full h-20 z-10 text-white fixed md:px-4 top-0 left-0 bg-black">
           <div className='flex justify-between md:max-w-6xl w-[90%] '>
               <a href='' className='text-xl tracking-[0.20em] ml-2 uppercase font-bold list-none cursor-pointer'>Sergio</a>
             <ul className="hidden md:flex">

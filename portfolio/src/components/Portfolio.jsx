@@ -1,7 +1,6 @@
 import React from 'react'
 import { BiCodeBlock } from "react-icons/bi";
 import { BiCodeAlt } from "react-icons/bi";
-import githubicon from "../assets/github-mark.svg";
 import { AiFillGithub } from "react-icons/ai";
 
 const Portfolio = () => {
