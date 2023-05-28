@@ -36,7 +36,7 @@ const NavBar = () => {
               <li key={id} 
               className="px-4 cursor-pointer capitalize font-medium text-white hover:scale-105 hover:text-cyan-200 duration-200"
               >
-                <a href="#home" className=''><Link to={link} smooth duration={500}>
+                <a href="#home"><Link to={link} smooth duration={500}>
                   {link}</Link></a>
               </li>
             ))}

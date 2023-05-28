@@ -30,7 +30,7 @@ const About = () => {
                         Front End Developer
                     </h3>
                 </div>
-                <p className='max-w-[90%] text-center mt-[25px] mb-9 mx-auto text-sm px-5 leading-6 font-normal text-[#6c757d]'>I am a passionate front end developer based in Santo Domingo, Dominican Republic who enjoys building performing, aestestic user interfaces with a JavaScript tech stack. I have experience building personal technical projects, freelancing and working at a high-level CRO agency developing quality digital solutions.
+                <p className='md:w-[90%] max-w-[800px] text-center mt-[25px] mb-9 mx-auto text-sm px-5 leading-6 font-normal text-[#6c757d]'>I am a passionate front end developer based in Santo Domingo, Dominican Republic who enjoys building performing, aestestic user interfaces with a JavaScript tech stack. I have experience building personal technical projects, freelancing and working at a high-level CRO agency developing quality digital solutions.
                 <br/>
                 <br/>
                 Currently, I’m employed at Conversion Kings, developing high quality JavaScript experiments for large national and international brands to help improve conversion rates.</p>

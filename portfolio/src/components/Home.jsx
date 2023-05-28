@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 const Home = () => {
   return (
     <div name="home">
-        <header className='flex h-screen w-full items-center justify-center bg-cover bg-center bg-no-repeat' style={{backgroundImage: `url(${Background})` }}>
+        <header id='home' className='flex h-screen w-full items-center justify-center bg-cover bg-center bg-no-repeat' style={{backgroundImage: `url(${Background})` }}>
             <div className='block bg-[#1a1f27] h-screen w-full opacity-80 absolute'></div>
             <section className='block z-[1] relative text-center'>
                 <h4 className='text-[#ffffff80] text-sm md:text-lg uppercase text-center tracking-[0.125em]'>Front end developer</h4>
