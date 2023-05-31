@@ -38,7 +38,7 @@ const Contact = () => {
                         <textarea className='contact-form__textarea' name='message' id='message' placeholder='Enter your message' required></textarea>
                     </div>
                     <div className='mt-[40px]'>
-                        <button type='submit' className='border-2 py-[16px] px-[32px] rounded-[99px] uppercase tracking-[0.125em] border-cyan-200 bg-transparent text-cyan-200 hover:bg-cyan-200 hover:text-white duration-300 ease-in-out text-[14px] flex items-center justify-center mx-auto my-0 w-fit'>
+                        <button type='submit' className='border-2 py-[16px] px-[32px] rounded-[99px] uppercase tracking-[0.125em] border-teal-400 bg-transparent text-teal-400 hover:bg-teal-400 hover:text-white duration-300 ease-in-out text-[14px] flex items-center justify-center mx-auto my-0 w-fit'>
                             Send Message
                             <BsSend size={20} className='ml-[10px]' />
                         </button>
