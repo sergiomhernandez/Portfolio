@@ -1,15 +1,206 @@
-.heading__about {
-
-}
-
-@media screen and (max-width: 600px) {
-    .heading__about {
-        display: none;
+.about-section__tabs-container {
+    width: 90%;
+    max-width: 1180px;
+    margin: 0 auto;
+  }
+  @media screen and (max-width: 768px) {
+    .about-section__tabs-container {
+      width: 95%;
     }
-}
-
-@media screen and (min-width: 600px) {
-    .mobile-heading {
-        display: none;
+  }
+  @media screen and (max-width: 575px) {
+    .about-section__tabs-container {
+      width: 100%;
     }
-}
+  }
+  .about-section__tab-headings {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    height: 55px;
+  }
+  .about-section__tab-heading {
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0;
+    color: #212121;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+  }
+  @media screen and (max-width: 768px) {
+    .about-section__tab-heading {
+      font-size: 12px;
+    }
+  }
+  .about-section__tab-heading.active {
+    color: #fff;
+    background-color: #2dd4bfd9;
+  }
+  .about-section__tab-heading:not(.active):hover {
+    cursor: pointer;
+    background-color: #2dd4bfd9;
+    color: #fff;
+  }
+
+  .about-section__tab-contents {
+    width: 100%;
+    margin-top: 48px;
+  }
+  @media screen and (max-width: 768px) {
+    .about-section__tab-contents {
+      width: 90%;
+      margin: 48px auto 0 auto;
+    }
+  }
+  .about-section__tab-content {
+    display: none;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+  }
+  .about-section__tab-content.active {
+    display: flex;
+  }
+  .about-section__tab-content .about-tab__heading {
+    margin: 10px auto 0 auto;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #5c6269;
+  }
+  .about-section__tab-content .about-tab__heading span {
+    font-weight: 600;
+    color: #212529;
+  }
+  @media screen and (max-width: 768px) {
+    .about-section__tab-content .about-tab__heading {
+      display: none;
+    }
+  }
+  .about-section__tab-content .about-tab__heading.mobile-heading {
+    display: none;
+    line-height: 35px;
+  }
+  @media screen and (max-width: 768px) {
+    .about-section__tab-content .about-tab__heading.mobile-heading {
+      display: block;
+    }
+    .about-section__tab-content .about-tab__heading.mobile-heading span {
+      display: block;
+    }
+  }
+  .about-section__tab-content .about-tab__paragraph {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    width: 90%;
+    margin: 25px auto 35px auto;
+    max-width: 800px;
+    color: #6c757d;
+  }
+  @media screen and (max-width: 768px) {
+    .about-section__tab-content .about-tab__img {
+      width: 175px;
+    }
+  }
+  .about-section__tab-content .skills-tab__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+  }
+  @media screen and (max-width: 1024px) {
+    .about-section__tab-content .skills-tab__container {
+      width: 100%;
+    }
+  }
+  .about-section__tab-content .skills-tab__skill-group {
+    width: 47.5%;
+    min-height: 155px;
+    background: #f9f9f9;
+    border-top: 3px solid #2dd4bfd9;
+    padding: 28px;
+  }
+  .about-section__tab-content .skills-tab__skill-group:nth-child(2) {
+    margin-left: 5%;
+  }
+  .about-section__tab-content .skills-tab__skill-group:last-of-type {
+    margin-top: 5%;
+  }
+  @media screen and (max-width: 768px) {
+    .about-section__tab-content .skills-tab__skill-group {
+      width: 100%;
+      min-height: 100px;
+    }
+    .about-section__tab-content .skills-tab__skill-group:nth-child(2) {
+      margin: 35px 0 0 0;
+    }
+  }
+  .about-section__tab-content .skills-tab__skill-group-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #212121;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .about-section__tab-content .skills-tab__skill-group-list {
+    font-family: "Open Sans", sans-serif;
+    color: #6c757d;
+    font-size: 14px;
+  }
+  .about-section__tab-content .experience-tab__entry {
+    border-bottom: 1px solid #d9d9d9;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+  }
+  @media screen and (max-width: 768px) {
+    .about-section__tab-content .experience-tab__entry {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 575px) {
+    .about-section__tab-content .experience-tab__entry {
+      flex-direction: column;
+    }
+    .about-section__tab-content .experience-tab__entry-image {
+      margin-top: 30px;
+    }
+  }
+  .about-section__tab-content .experience-tab__entry:first-of-type {
+    border-top: 1px solid #d9d9d9;
+  }
+  .about-section__tab-content .experience-tab__entry-title {
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .about-section__tab-content .experience-tab__entry-subtext {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6c757d;
+  }
+  .about-section__tab-content .experience-tab__entry-subtext span {
+    font-weight: 600;
+    color: #212529;
+  }
+  .about-section__tab-content .experience-tab__entry-image {
+    height: 65px;
+    width: auto;
+  }
