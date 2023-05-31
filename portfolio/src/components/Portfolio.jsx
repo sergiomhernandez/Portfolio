@@ -53,7 +53,7 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            <a className='border-2 py-[16px] px-[32px] rounded-[99px] uppercase tracking-[0.125em] border-cyan-200 bg-transparent text-cyan-200 hover:bg-cyan-200 hover:text-white duration-300 ease-in-out text-[14px] flex items-center justify-center mx-auto my-0 w-fit' href="https://github.com/sergiomhernandez" target='_blank'>View Github
+            <a className='border-2 py-[16px] px-[32px] rounded-[99px] uppercase tracking-[0.125em] border-teal-400 bg-transparent text-teal-400 hover:bg-teal-400 hover:text-white duration-300 ease-in-out text-[14px] flex items-center justify-center mx-auto my-0 w-fit' href="https://github.com/sergiomhernandez" target='_blank'>View Github
             <AiFillGithub className='float-right ml-2'  />
             </a>
         </section>
